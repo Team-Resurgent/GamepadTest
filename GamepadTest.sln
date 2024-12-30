@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GamepadTest", "GamepadTest.vcproj", "{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Profile = Profile
+		Profile_FastCap = Profile_FastCap
+		Release = Release
+		Release_LTCG = Release_LTCG
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Debug.ActiveCfg = Debug|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Debug.Build.0 = Debug|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Profile.ActiveCfg = Profile|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Profile.Build.0 = Profile|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Profile_FastCap.ActiveCfg = Profile_FastCap|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Profile_FastCap.Build.0 = Profile_FastCap|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Release.ActiveCfg = Release|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Release.Build.0 = Release|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Release_LTCG.ActiveCfg = Release_LTCG|Xbox
+		{BC50EDFE-E70E-4244-8A3E-30DA6E0CD415}.Release_LTCG.Build.0 = Release_LTCG|Xbox
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

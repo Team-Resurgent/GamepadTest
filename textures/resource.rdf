@@ -1,0 +1,92 @@
+// List of resources to bundle.
+//
+// The output will be a header file (.h) used at compile time,
+// and a packed resource file (.xpr) used at runtime.
+
+out_header         Resource.h
+out_packedresource Resource.xpr
+out_error          Resource.err
+out_prefix         resource
+
+Texture AnalogGauge
+{
+   Source      AnalogGauge.bmp
+   AlphaSource AnalogGauge_a.bmp
+   Width       256
+   Height      128
+   Format      D3DFMT_LIN_A8R8G8B8
+   Levels      1
+}
+
+Texture MatteBlack
+{
+   Source      Matte.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture ShinyBlack
+{
+   Source      Sample1.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture Cord
+{
+   Source      Cord.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture GreenGlass
+{
+   Source      Sample15.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture WhiteGlass
+{
+   Source      Sample17.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture RedGlass
+{
+   Source      Sample22.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture BlueGlass
+{
+   Source      Sample23.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture YellowGlass
+{
+   Source      Sample24.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
+Texture GreenBezel
+{
+   Source      Bezel.bmp
+   Width       128
+   Height      128
+   Levels      1
+}
+
